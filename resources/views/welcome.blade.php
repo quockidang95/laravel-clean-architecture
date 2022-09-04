@@ -129,4 +129,9 @@
             </div>
         </div>
     </body>
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script>
+    <script>
+        const socket = io("localhost:9001")
+        socket.emit("CLIENT_SEND_DATA", "hello socket server!");
+    </script>
 </html>

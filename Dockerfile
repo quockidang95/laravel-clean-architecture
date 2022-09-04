@@ -6,6 +6,6 @@ WORKDIR /var/www/html
 # Install PHP Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 RUN docker-php-ext-install sockets
-
+RUN docker-php-ext-install mysqli pdo pdo_mysql
 # Copy existing application directory
 COPY . .
