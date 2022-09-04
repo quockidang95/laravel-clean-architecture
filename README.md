@@ -19,3 +19,5 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
  - Exec into application: docker-compose exec app sh
  - Install package: composer install
  - Run rabbitmq worker: php artisan rabbitmq:consume
+
+ -  Login rabbitmq dashboard: localhost:15672; username: guest, password: guest
