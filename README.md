@@ -15,7 +15,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Install Project
 
-Run docker compose: docker-compose up --build -d
-Exec into application: docker-compose exec app sh
-Install package: composer install
-Run rabbitmq worker: php artisan rabbitmq:consume
+ - Run docker compose: docker-compose up --build -d
+ - Exec into application: docker-compose exec app sh
+ - Install package: composer install
+ - Run rabbitmq worker: php artisan rabbitmq:consume
